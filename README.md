@@ -16,5 +16,4 @@ git commit -m "..."
 git push
 ```
 ### ссылки на сфот:
-git
-(https://github.com/) [https://github.com/] 
+[https://github.com/] (https://github.com/) 
