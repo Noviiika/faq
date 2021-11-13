@@ -56,11 +56,11 @@ animation: kvadrat 3s infinite ease-in-out alternate-reverse;
 @keyframes kvadrat {
     0%{
         transform:  rotate(0);
-}
-25% {
+    }
+    25% {
     border-color: aqua;
-    border-width: 10px;
-}
+    border-width: 10px;}
+
 50% {
     border-color: coral;
     border-width: 20px;
