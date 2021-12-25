@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: darkseagreen;
+}
+.square{
+height: 120px;
+width: 120px;
+display: flex;
+background: honeydew;
+border-width: 30px;
+border-color: deeppink;
+border: 2px solid;
+margin-top: 20px;
+justify-content: center;
+align-items: center;
+animation: square 2s infinite;
+}
+
+@keyframes circle {
+    0%{
+        border-color: gold;
+        transform: scale(3);
+    }
+    25%{
+        border-color: steelblue;
+        transform: scale(3.1);
+    }
+    50%{
+        border-color: maroon;
+        transform: scale(3.3);
+    }
+    75%{
+        border-color: lightsalmon;
+        transform: scale(3.1);
+    }
+    100%{
+        border-color: aquamarine;
+        transform: scale(3);
+    }
+}
