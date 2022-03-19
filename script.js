@@ -1,14 +1,17 @@
-var a = 3;
-var b = '2';
-var c = a + b;
-var j = false;
+$(document).ready(function () {
+    $('#slide_2').hide();
+      $('#slide_1').show();
 
-if ( a ! = 2){
-	console.log('a ne ravno' 2);
-}
+      $('#mark_1').css({
+          "backround-color": "#ff0000"
+   })
+    $('#mark_1').click(function () {
+      $('#slide_2').hide();
+      $('#slide_1').show();
+  });
 
-else {
-	console.log('a ravno ' +a)
-}
-
-console.iog(j);
+  $('#mark_2').click(function () {
+      $('#slide_1').hide();
+      $('#slide_2').show();
+  });
+});
